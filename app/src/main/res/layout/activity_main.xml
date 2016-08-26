@@ -47,6 +47,12 @@
             android:text="Property Animation"
             android:layout_gravity="center"/>
 
+        <Button
+            android:id="@+id/value_animation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Property value Animation"
+            android:layout_gravity="center"/>
 
         <Button
             android:id="@+id/custom_animation"

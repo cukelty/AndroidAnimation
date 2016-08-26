@@ -3,8 +3,18 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--<objectAnimator-->
-
+        <!--android:propertyName="String"-->
+        <!--android:duration=""-->
+        <!--android:valueFrom=""-->
+        <!--android:valueTo=""-->
+        <!--android:startOffset=""-->
+        <!--android:repeatCount=""-->
+        <!--android:repeatMode=""-->
+        <!--android:valueType=""-->
         <!--/>-->
+
+
+
 
     <!--<animator-->
 

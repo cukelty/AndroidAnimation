@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<set xmlns:android="http://schemas.android.com/apk/res/android">
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+    android:fillAfter="true">
 
 
     <scale
@@ -7,7 +9,6 @@
         android:fillAfter="false"
         android:fromXScale="0.0"
         android:fromYScale="0.0"
-        android:interpolator="@android:anim/accelerate_decelerate_interpolator"
         android:pivotX="50%"
         android:pivotY="50%"
         android:toXScale="1.4"
@@ -22,6 +23,20 @@
             accelerate_interpolator        加速-动画插入器
             decelerate_interpolator        减速- 动画插入器
         其他的属于特定的动画效果
+   AnticipateOvershootInterpolator 开始的时候向后然后向前甩一定值后返回最后的值
+
+  BounceInterpolator   动画结束的时候弹起
+
+  CycleInterpolator 动画循环播放特定的次数，速率改变沿着正弦曲线
+
+  DecelerateInterpolator 在动画开始的地方快然后慢
+
+  LinearInterpolator   以常量速率改变
+
+  OvershootInterpolator    向前甩一定值后再回到原来位置
+
+
+
       浮点型值：
 
             fromXScale 属性为动画起始时 X坐标上的伸缩尺寸

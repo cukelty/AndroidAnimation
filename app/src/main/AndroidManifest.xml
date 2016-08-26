@@ -21,7 +21,8 @@
         <activity android:name=".custom.CustomActivity" />
         <activity android:name=".ui.ViewAniActivity" />
         <activity android:name=".ui.View2Activity" />
-        <activity android:name=".ui.propertyActivity"></activity>
+        <activity android:name=".ui.propertyActivity" />
+        <activity android:name=".ui.ValueActivity"></activity>
     </application>
 
 </manifest>

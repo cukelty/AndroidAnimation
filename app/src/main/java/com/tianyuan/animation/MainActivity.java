@@ -9,12 +9,13 @@ import com.tianyuan.animation.custom.CustomActivity;
 import com.tianyuan.animation.ui.AnimationListActivity;
 import com.tianyuan.animation.ui.JumpActivity;
 import com.tianyuan.animation.ui.SampleActivity;
+import com.tianyuan.animation.ui.ValueActivity;
 import com.tianyuan.animation.ui.View2Activity;
 import com.tianyuan.animation.ui.propertyActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    private Button mButton_example,mButton_animationlist,mButton_custom,mButton_view,mButton_view2,mButton_property;
+    private Button mButton_example,mButton_animationlist,mButton_custom,mButton_view,mButton_view2,mButton_property,mButton_value;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButton_view=(Button)findViewById(R.id.View_animation);
         mButton_view2=(Button)findViewById(R.id.View_animation2);
         mButton_property= (Button) findViewById(R.id.propert_animation);
+        mButton_value= (Button) findViewById(R.id.value_animation);
+
     }
 
     private void initDate() {
@@ -42,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mButton_view.setOnClickListener(this);
         mButton_view2.setOnClickListener(this);
         mButton_property.setOnClickListener(this);
+        mButton_value.setOnClickListener(this);
     }
 
     @Override
@@ -68,6 +72,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.propert_animation:
                 propertyActivity.lauch(this);
+                break;
+
+            case  R.id.value_animation:
+                ValueActivity.lauch(this);
                 break;
         }
     }
