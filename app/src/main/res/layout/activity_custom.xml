@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_custom"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tianyuan.animation.custom.CustomActivity">
+    <com.tianyuan.animation.custom.view.CubeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#0f0">
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#f00">
+        </RelativeLayout>
+    </com.tianyuan.animation.custom.view.CubeLayout>
+</RelativeLayout>
