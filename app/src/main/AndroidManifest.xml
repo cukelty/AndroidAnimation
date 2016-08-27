@@ -22,7 +22,8 @@
         <activity android:name=".ui.ViewAniActivity" />
         <activity android:name=".ui.View2Activity" />
         <activity android:name=".ui.propertyActivity" />
-        <activity android:name=".ui.ValueActivity"></activity>
+        <activity android:name=".ui.ValueActivity" />
+        <activity android:name=".ui.CameraActivity"></activity>
     </application>
 
 </manifest>

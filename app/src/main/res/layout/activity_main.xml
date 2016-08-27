@@ -61,5 +61,13 @@
             android:text="Custom Animation"
             android:layout_gravity="center"/>
 
+
+        <Button
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera Animation"
+            android:layout_gravity="center"/>
+
     </LinearLayout>
 </FrameLayout>
